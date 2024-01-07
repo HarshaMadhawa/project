@@ -1,0 +1,91 @@
+/*header*/
+
+body{
+    background-color: rgb(229, 190, 225)!important;
+}
+.header
+{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(52, 5, 65);
+
+
+}
+.logo
+{
+    margin-top:-1.5px;
+    height: 80px;
+    width: auto;
+    padding-left: 2px;
+
+}
+
+.name{
+    color: antiquewhite;
+    font-size:50px;;
+    padding-right: 70vw;
+    text-align: center;
+    margin-top: -75px;
+    margin-left: 65px;
+}
+
+.sName{
+
+
+    color: aliceblue;
+    margin-top: -55px;
+    margin-left: 40vw;
+}
+
+
+.navbar .dropdown-toggle, .navbar .dropdown-menu a {
+    cursor: auto;
+
+}
+
+.navbar .dropdown-item.active, .navbar .dropdown-item:active {
+    color: inherit;
+    text-decoration: none;
+    background-color: inherit;
+
+}
+
+.navbar .dropdown-item:focus, .navbar .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+
+@media (min-width: 767px) {
+    .navbar .dropdown-toggle:not(.nav-link)::after {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: .5em;
+        vertical-align: 0;
+        border-bottom: .3em solid transparent;
+        border-top: .3em solid transparent;
+        border-left: .3em solid;
+    }
+}
+
+
+
+
+
+
+/* Reset some default styles */
+body, h1, form, label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the login form */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #dddddd;
+}

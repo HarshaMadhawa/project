@@ -1,0 +1,35 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Gabarito', cursive;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: -20px;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(52, 5, 65);
+}
+.logo {
+    margin-top: -1.5px;
+    height: 80px;
+    width: auto;
+    padding-left: 2px;
+}
+
+.name {
+    color: antiquewhite;
+    font-size: 50px;
+}
+
+.sName {
+    color: aliceblue;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,16 @@
+.img1{
+    height:350px;
+}
+
+.decription{
+    font-size: 16px;
+    text-align: justify;
+    padding: 10px 50px;
+    font-weight:  500;
+    margin: 0;
+
+}
+
+.content{
+    background-color: #ead8eb;
+}

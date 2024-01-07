@@ -1,0 +1,62 @@
+.dashbd{
+	height:auto;
+  	width:100%;
+	/* float:left; */
+	
+}
+/* .TempUsers{
+	border: 2px  rgb(11, 4, 4);
+  	border-radius: 5px;
+} */
+
+
+
+.title{
+	text-align:center;
+	padding:5px;
+}
+
+.card{
+	height:auto;
+  	width:auto;
+	float: left;
+	padding:20px;
+	margin:20px;
+	position:relative;
+	cursor: pointer;
+}
+
+.card-body{
+	text-align: center;
+}
+
+.container{
+	background-color: #ead8eb;
+}
+
+.image{
+	height:85px;
+  	width:85px;
+}
+
+.list{
+	display:none;
+	position:absolute;
+	top:100px;
+	left:100px;
+	list-style-type: none;	
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	height:auto;
+  	width:auto;
+	z-index: 1;
+	border-radius: 15px;
+	padding: 10px;
+	
+}
+
+.list li {
+	padding: 5px;
+      cursor: pointer;
+	  
+    }

@@ -1,0 +1,91 @@
+
+
+
+
+.navbar .dropdown-toggle, .navbar .dropdown-menu a {
+    cursor: auto;
+
+}
+
+.navbar .dropdown-item.active, .navbar .dropdown-item:active {
+    color: inherit;
+    text-decoration: none;
+    background-color: inherit;
+
+}
+
+.navbar .dropdown-item:focus, .navbar .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+
+@media (min-width: 767px) {
+    .navbar .dropdown-toggle:not(.nav-link)::after {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: .5em;
+        vertical-align: 0;
+        border-bottom: .3em solid transparent;
+        border-top: .3em solid transparent;
+        border-left: .3em solid;
+    }
+}
+
+.prfimage{
+    width: 500px;
+    padding-bottom: 20px;
+    background-color: rgb(232, 186, 244);
+}
+
+.profileImage{
+    margin-left: 120px;
+    margin-top: 50px;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    border: 5px solid #0e0d0d;
+    border-radius: 50%;
+    background-size: 100% 100%;
+;
+
+}
+.sDtails{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.right{
+   
+    
+    text-align: center;
+    flex: 1;
+
+}
+.table{
+
+    width: 100px;
+    height: 200px;
+    background: #f8f9fa;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.bleft{
+    background-color: rgb(229,190,225) ;
+    width: 50%;
+    border: solid 1px white;
+    padding: 5px;
+  
+}
+
+.bright{
+    background-color:rgb(229, 190, 225) ;
+    width: 50%;
+    border: solid 1px white;
+    padding: 5px;
+   
+}

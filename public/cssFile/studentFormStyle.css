@@ -1,0 +1,174 @@
+/*header*/
+
+body{
+    background-color: #ead8eb!important;
+}
+.header
+{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(52, 5, 65);
+
+
+}
+.logo
+{
+    margin-top:-1.5px;
+    height: 80px;
+    width: auto;
+    padding-left: 2px;
+
+}
+
+.name{
+    color: antiquewhite;
+    font-size:50px;;
+    padding-right: 70vw;
+    text-align: center;
+    margin-top: -75px;
+    margin-left: 65px;
+}
+
+.sName{
+
+
+    color: aliceblue;
+    margin-top: -55px;
+    margin-left: 40vw;
+}
+
+
+.navbar .dropdown-toggle, .navbar .dropdown-menu a {
+    cursor: auto;
+
+}
+
+.navbar .dropdown-item.active, .navbar .dropdown-item:active {
+    color: inherit;
+    text-decoration: none;
+    background-color: inherit;
+
+}
+
+.navbar .dropdown-item:focus, .navbar .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+
+@media (min-width: 767px) {
+    .navbar .dropdown-toggle:not(.nav-link)::after {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: .5em;
+        vertical-align: 0;
+        border-bottom: .3em solid transparent;
+        border-top: .3em solid transparent;
+        border-left: .3em solid;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+#logo{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.profile-form {
+    max-width: 800px;
+    margin:  auto;
+    padding: 50px;
+    background-color: #ffffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+    text-align: center;
+}
+
+.profile-picture img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-picture input[type="file"] {
+    display: none;
+}
+
+.profile-picture label {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+
+
+}
+
+.profile-picture label:hover {
+    background-color: #0056b3;
+}
+
+/*h1 {
+    font-size: 24px;
+    margin: 0;
+}
+*/
+input[type="text"],
+input[type="email"],
+input[type="number"],
+.job-field{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.common-button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.common-button:hover {
+    background-color: #0056b3;
+}
+
+
+.graduate-Personal-Info {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.form-header{
+    text-align: center;
+    font-size : 30px;
+    font-weight: bold;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #ffffff;
+
+}

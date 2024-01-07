@@ -1,0 +1,68 @@
+body{
+    background-color: #dddddd;
+}
+
+#logo{
+    width: 100px;
+    height: 50px;
+    text-align: left;
+}
+h5{
+    text-align: center;
+}
+
+.cslab-image{
+   width:auto;
+    height:200px;
+
+}
+p{
+    text-align: center;
+
+}
+
+.cslab-image{
+    text-align: left;
+}
+
+.s1{
+    height:150px;
+
+}
+.s5{
+    height: 150px;
+
+
+}
+.img3{
+    height: 350px;
+
+}
+
+
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+  }
+
+  .button1:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  .center {
+    margin: 0;
+    position: absolute;
+    top:110%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+

@@ -1,0 +1,29 @@
+body {
+    background-color: #8a91bb;
+
+}
+
+
+
+
+.container{
+    width: 100%;
+}
+.nBar{
+    width:auto;
+    height: 60px;
+    background-color: blanchedalmond;
+}
+.back{
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.notice{
+    margin-left: auto;
+    
+}
+
+
+.text-center{
+    color: #131413;
+}
